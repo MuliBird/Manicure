@@ -1,0 +1,13 @@
+.cli {
+    display: flex;
+} 
+.box4 {
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border: 2px solid #FFE3AA;
+    text-align: center;
+    color: #F78888;
+    font-size: 25px;
+    font-weight: bold;
+}

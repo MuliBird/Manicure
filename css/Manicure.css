@@ -1,0 +1,96 @@
+header {
+    background-color: #FFE3AA;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-family: Bahnschrift;
+}   
+footer {
+    background-color: #FFE3AA;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;  
+    font-size: 20px;
+    font-family: Bahnschrift; 
+} 
+.lam {
+    display: flex;
+    border: 1px solid #ffffff;
+}  
+.box1 {
+    flex: 1;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: #FFE3AA;
+}
+.box2 {
+    flex: 0,5;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+.hero-section {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+.block {
+    width: 100%;
+    height: 100%;
+}
+.block img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 80%;
+    color: #FFE3AA;
+    text-shadow: 1px 1px 2px #F78888;
+    font-family: 'Retrow Mentho Regular';
+    font-weight: bold;
+}
+.text h1 {
+    font-size: 50px;
+    margin-bottom: 0,1px;
+  }  
+.text p {
+    color: #f7abab;
+    text-shadow: 1px 1px 2px #e81212;
+    font-size: 30px;
+}
+h2 {
+    color: #F78888;
+    font-size: 40px;
+    font-weight: bold;
+}
+.lam1 {
+    display: flex;
+} 
+.box3 {
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border: 5px solid #FFE3AA;
+    text-align: center;
+    color: #FFE3AA;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box3 p{
+    text-align: center;
+    color: #FFE3AA;
+    text-shadow: 1px 1px 2px #F78888;
+    font-size: 35px;
+    font-weight: bold;
+}
+div p {
+    color: #F78888; 
+}
